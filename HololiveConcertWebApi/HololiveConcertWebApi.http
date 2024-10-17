@@ -1,0 +1,6 @@
+@HololiveConcertWebApi_HostAddress = http://localhost:5206
+
+GET {{HololiveConcertWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ConcertDatabase", "ConcertDatabase\ConcertDatabase.sqlproj", "{FD978220-4B6C-4AA6-BE98-2429BF9F659D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HololiveConcertWebApi", "HololiveConcertWebApi\HololiveConcertWebApi.csproj", "{3280D3B3-4897-44B9-9A2C-B27DDBACE807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HololiveConcertLibrary", "HololiveConcertLibrary\HololiveConcertLibrary.csproj", "{EE032DCF-BEC4-4E30-A2FB-46401BA2C726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD978220-4B6C-4AA6-BE98-2429BF9F659D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD978220-4B6C-4AA6-BE98-2429BF9F659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD978220-4B6C-4AA6-BE98-2429BF9F659D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD978220-4B6C-4AA6-BE98-2429BF9F659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD978220-4B6C-4AA6-BE98-2429BF9F659D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD978220-4B6C-4AA6-BE98-2429BF9F659D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3280D3B3-4897-44B9-9A2C-B27DDBACE807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3280D3B3-4897-44B9-9A2C-B27DDBACE807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3280D3B3-4897-44B9-9A2C-B27DDBACE807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3280D3B3-4897-44B9-9A2C-B27DDBACE807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE032DCF-BEC4-4E30-A2FB-46401BA2C726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE032DCF-BEC4-4E30-A2FB-46401BA2C726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE032DCF-BEC4-4E30-A2FB-46401BA2C726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE032DCF-BEC4-4E30-A2FB-46401BA2C726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0C23282-D699-4406-8E2A-3C04DE0E858B}
+	EndGlobalSection
+EndGlobal
