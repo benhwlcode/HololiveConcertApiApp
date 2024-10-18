@@ -20,7 +20,7 @@ public class SqlDataAccess : ISqlDataAccess
 		U parameters,
 		string connectionString = "Default")
 	{
-		string cnn = _config.GetConnectionString(connectionString);
+		string cnn = _config.GetConnectionString(connectionString)!;
 		using IDbConnection connection = new SqlConnection(cnn);
 
 		var rows = await connection.QueryAsync<T>(
