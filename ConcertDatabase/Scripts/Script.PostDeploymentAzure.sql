@@ -9,3 +9,9 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+:r Script.PostDeploymentTalents.sql
+:r Script.PostDeploymentConcerts.sql
+:r Script.PostDeploymentPerformances.sql
+
+

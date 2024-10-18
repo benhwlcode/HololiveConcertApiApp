@@ -13,7 +13,7 @@ Post-Deployment Script Template
 if not exists (select 1 from dbo.Concerts)
 begin
 
-    insert into dbo.Concerts (EventName, ConcertName, StageName, Date)
+    insert into dbo.Concerts (EventName, ConcertName, StageName, ConcertDate)
     values
 
     ('hololive 1st Fes.', 'Nonstop Story', 'Stage 1', '2020-01-24'),

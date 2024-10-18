@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{fd978220-4b6c-4aa6-be98-2429bf9f659d}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -80,8 +80,10 @@
     <None Include="Scripts\Script.PostDeploymentTalents.sql" />
     <None Include="Scripts\Script.PostDeploymentConcerts.sql" />
     <None Include="Scripts\Script.PostDeploymentPerformances.sql" />
-    <None Include="Scripts\Script.PostDeploymentAzure.sql" />
+    <PostDeploy Include="Scripts\Script.PostDeploymentAzure.sql" />
     <None Include="ConcertDatabase.publish.xml" />
+    <None Include="ConcertDatabase.azure.publish.xml" />
+    <None Include="ConcertDatabase.test.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ConcertDatabase.local.publish.xml" />
