@@ -6,6 +6,8 @@ This project consists of a Web API and a SQL database. To see the repo page for 
 
 This is a RESTful API that retrieves data from a SQL server hosted on Azure. The API includes health check, rate limiting, caching, and uses JWT bearer tokens for authorization. A [Blazor SSR web app](https://hololiveconcertapiblazor-demo.azurewebsites.net) calls into the API and displays the data retrieved. See the repo page linked above for instructions on how to use the web app, this page will focus on instructions for the API iteself. 
 
+The database contains information on concert performances for the online streamer group known as hololive. 
+
 ## Base URL and Endpoints
 
 This is the root URL for the entire API:
